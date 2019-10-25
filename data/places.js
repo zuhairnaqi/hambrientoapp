@@ -1,6 +1,22 @@
-const places = {
+export default places = {
   "type": "FeatureCollection",
   "features": [
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "Casa Labra",
+        "category": "Croquettes",
+        "address": "Calle de Tetuán, 12, 28013 Madrid, Spain",
+        "evaluate": "good,pretty,cheap, cultural food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8616863,
+          67.034556
+        ]
+      }
+    },
      {
       "type": "Feature",
       "properties": {
@@ -208,9 +224,23 @@ const places = {
           -33.4196955
         ]
       }
-    }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BBQ Tonight",
+        "category": "Bbq-roll",
+        "address": "5/1, Boating Basin, Clifton، block-5 Block 5 Clifton, Karachi, Karachi City, Sindh 75600",
+        "evaluate": "good,pretty,cheap, fast food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9507428,67.1361371,
+          24.7443661,67.0146752
+        ]
+      }
+    },
 
   ]
 }
-
-export default places
