@@ -34,6 +34,12 @@ export default function Categories() {
                         <a href="#Spainish">
                             Croquettes
                         </a>
+                    </Col>					
+					<Col>
+                        <h2><span role='img' aria-label='Flag of Pakistan emoji' className='menu-item'></span></h2>
+                        <a href="#Pakistan">
+                            Bbq-roll
+                        </a>
                     </Col>
                     <Col>
                         <h2><span role='img' aria-label='taco emoji' className='menu-item'>🇲🇽</span></h2>

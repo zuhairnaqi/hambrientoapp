@@ -10,7 +10,8 @@ export default function Categories() {
     const [pakistani, setPakistani] = useState(0); 
 	const [chilean, setChilean] = useState(0); 
 	const [japanese, setJapanese] = useState(0); 
-	const [spanish, setSpanish] = useState(0); 
+    const [spanish, setSpanish] = useState(0); 
+    const [pakistan, setPakistan] = useState(0); 
 		
     return (
         <div id="categories">
@@ -80,6 +81,15 @@ export default function Categories() {
                         </h6>
                         <div className="justify-content-md-center text-center">
                             <button className="btn btn-light" onClick={() => setSpanish(spanish + 1)} aria-label="Like"><span role="img" aria-label="Like emoji">👍</span> {spanish}</button>
+                        </div>
+                    </Col>
+                    <Col>
+                        <h2><span role='img' aria-label='Flag of Pakistan emoji' className='menu-item'>🇵🇰</span></h2>
+                        <h6>
+                            Pakistan
+                        </h6>
+                        <div className="justify-content-md-center text-center">
+                            <button className="btn btn-light" onClick={() => setPakistan(pakistan + 1)} aria-label="Like"><span role="img" aria-label="Like emoji">👍</span> {pakistan}</button>
                         </div>
                     </Col>
                 </Row>

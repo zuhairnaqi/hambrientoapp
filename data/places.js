@@ -224,7 +224,23 @@ export default places = {
           -33.4196955
         ]
       }
-    }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BBQ Tonight",
+        "category": "Bbq-roll",
+        "address": "5/1, Boating Basin, Clifton، block-5 Block 5 Clifton, Karachi, Karachi City, Sindh 75600",
+        "evaluate": "good,pretty,cheap, fast food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9507428,67.1361371,
+          24.7443661,67.0146752
+        ]
+      }
+    },
 
   ]
 }
